@@ -1,0 +1,9 @@
+On:
+ push:
+   branches: [master]
+
+jobs:
+  build: 
+  name: Build Image 
+  runs_on: ubuntu-latest 
+  
